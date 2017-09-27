@@ -39,7 +39,7 @@
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="https://losmejores.top/imagenes/los-mejores-panales.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<img src="https://www.conasi.eu/blog/wp-content/uploads/2016/05/pa%C3%B1ales-desechables-900x600.jpg" class="img-responsive">
 							<h3 class="fh5co-work-title">Pañales</h3>
 						</a>
 					</div>
