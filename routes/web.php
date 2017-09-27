@@ -20,6 +20,6 @@ Route::get('donador', function () {
 });
 
 Route::get('centro', function() {
-	return view('centros.centro');
+	return view('centros.typography');
 });
 
