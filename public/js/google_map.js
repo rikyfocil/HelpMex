@@ -27,9 +27,7 @@ function init() {
         });
 
         google.maps.event.addListener(marker, 'click', function() {
-            infowindow.setContent('<div><strong>Hola que tal</strong><br>' +
-            'Place ID: 73 <br>' +
-            place.formatted_address + '</div>');
+            $('#infowindow').html('<div><strong>Centro de acopio A</strong><br><strong>Direcci&oacute;n:</strong> Calle 25 Sur 2123 Col. Anzurez <br> <strong>Estado:</strong> Puebla <br><strong>Tel&eacute;fono:</strong>1234567890</div>');
             infowindow.open(map, this);
         });
 
