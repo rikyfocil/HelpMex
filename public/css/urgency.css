@@ -1,0 +1,15 @@
+.urgency-high {
+  background-color: red;
+}
+
+.urgency-med {
+  background-color: yellow;
+}
+
+.urgency-low {
+  background-color: green;
+}
+
+.urgency-med p{
+	color: black !important;
+}

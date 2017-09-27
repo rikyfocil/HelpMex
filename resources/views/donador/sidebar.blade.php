@@ -31,6 +31,8 @@
 		<link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
 		<link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
 		<link rel="stylesheet" href="{{asset('css/style.css')}}">
+		<link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
+		<link rel="stylesheet" href="{{asset('css/urgency.css')}}">
 
 		<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 	</head>
