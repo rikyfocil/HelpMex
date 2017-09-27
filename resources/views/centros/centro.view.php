@@ -75,7 +75,7 @@
 		
 		<div class="col-xs-12">
 			<div class="col-md-9">
-				<div id="map"></div>	
+				<div id="xochiteopan"></div>	
 			</div>
 			<div class="col-md-3"></div>
 		</div>
