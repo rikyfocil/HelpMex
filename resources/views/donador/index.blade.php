@@ -77,6 +77,20 @@
 		</div>
 
 
+		<div id="map">My map will go here</div>
+	    <script>
+	      var map;
+	      function initMap() {
+	        map = new google.maps.Map(document.getElementById('map'), {
+	          center: {lat: -34.397, lng: 150.644},
+	          zoom: 8
+	        });
+	      }
+
+	    </script>
+    	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0lbxcrWK2viuK3I2CTjysl-8JP0-IpkM&callback=initMap" async defer></script>
+
+
 		<div class="fh5co-narrow-content">
 			<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">This Is What <span>We Love To Do</span></h2>
 			<div class="row">
@@ -148,50 +162,7 @@
 			</div>
 		</div>
 
-		<div class="fh5co-cards">
-			<div class="fh5co-narrow-content">
-				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Press Release</h2>
 
-				<div class="fh5co-flex-wrap">
-					<div class="fh5co-card animate-box" data-animate-effect="fadeInLeft">
-						<h5>Expertise</h5>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-						<p><a href="#" class="btn btn-md btn-primary">Learn More</a></p>
-					</div>
-					<div class="fh5co-card animate-box" data-animate-effect="fadeInLeft">
-						<h5>Explore</h5>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas.</p>
-						<p><a href="#" class="btn btn-md btn-primary">Learn More</a></p>
-					</div>
-
-				</div>	
-				
-			</div>
-		</div>
-
-		<div class="fh5co-narrow-content">
-			<div class="row">
-				<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-					<h1 class="fh5co-heading-colored">We Design Beautiful &amp; Functional Website</h1>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-					<p class="fh5co-lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-					<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
-				</div>
-				<div class="col-md-7 col-md-push-1">
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
 	</div>
 
