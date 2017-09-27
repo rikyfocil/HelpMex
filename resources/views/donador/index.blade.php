@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @extends('sidebar')
+=======
+@extends('donador.sidebar')
+>>>>>>> 98e639d10211f9818b952f6ff391340b958476e7
 @section('content')
 	<div id="fh5co-main">
 
