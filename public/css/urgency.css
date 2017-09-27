@@ -1,13 +1,13 @@
 .urgency-high {
-  background-color: red;
+  background-color: #D50F37;
 }
 
 .urgency-med {
-  background-color: yellow;
+  background-color: #ffff00;
 }
 
 .urgency-low {
-  background-color: green;
+  background-color: #2eb82e;
 }
 
 .urgency-med p{

@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Nitro &mdash; Free HTML5 Bootstrap Website Template by FreeHTML5.co</title>
+		<title>Helpmex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 		<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -45,15 +45,15 @@
 				<h1 id="fh5co-logo"><a href="index.html"><img src="images/logo.png" alt="Free HTML5 Bootstrap Website Template"></a></h1>
 				<nav id="fh5co-main-menu" role="navigation">
 					<ul>
-						<li class="fh5co-active"><a href="index.html">Home</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li class="fh5co-active"><a href="index.html">Urgencias</a></li>
+						<li><a href="portfolio.html">Centros</a></li>
+						<li><a href="about.html">Acerca de</a></li>
+						<li><a href="contact.html">Contacto</a></li>
 					</ul>
 				</nav>
 
 				<div class="fh5co-footer">
-					<p><small>&copy; 2016 Nitro Free HTML5. All Rights Reserved.</span> <span>Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> </span> <span>Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></span></small></p>
+					<p><small>&copy; 2017 Helpmex.</span> <span>Diseñado por <a href="http://freehtml5.co/" target="_blank">Amiguitos</a> </span> <span>Woo: <a href="http://unsplash.com/" target="_blank">Unsplash</a></span></small></p>
 					<ul>
 						<li><a href="#"><i class="icon-facebook"></i></a></li>
 						<li><a href="#"><i class="icon-twitter"></i></a></li>
