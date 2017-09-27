@@ -19,3 +19,7 @@ Route::get('donador', function () {
     return view('donador.index');
 });
 
+Route::get('centro', function() {
+	return view('centros.centro');
+});
+
