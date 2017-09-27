@@ -56,7 +56,6 @@
 			</aside>
 
 			@yield('content')
-
 		</div>
 
 

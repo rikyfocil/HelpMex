@@ -1,15 +1,38 @@
-.urgency-high {
-  background-color: #D50F37;
+.work-item a:hover img.urgency-high, .work-item a:active img.urgency-high, .work-item a:focus img.urgency-high{
+  border: 10px solid #D50F37;
 }
 
-.urgency-med {
-  background-color: #ffff00;
+.work-item a:hover img.urgency-med, .work-item a:active img.urgency-med, .work-item a:focus img.urgency-med{
+  border: 10px solid #ffff00;
 }
 
-.urgency-low {
-  background-color: #2eb82e;
+.work-item a:hover img.urgency-low, .work-item a:active img.urgency-low, .work-item a:focus img.urgency-low{
+  border: 10px solid #2eb82e;
 }
 
-.urgency-med p{
-	color: black !important;
+
+.work-item{
+	height: 300px;
+}
+
+@media(max-width:767px){
+	.work-item{
+		height: 225px;
+	}
+
+	.work-item img{
+		max-height: 155px;
+		object-fit: contain;
+	}
+}
+
+@media(min-width:768px){
+	.work-item{
+		height: 300px;
+	}
+
+	.work-item img{
+		max-height: 250px;
+		object-fit: contain;
+	}
 }
