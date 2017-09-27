@@ -4,7 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 		<title>Sistema de respuesta a emergencias</title>
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 		<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -45,13 +47,12 @@
 				<h1 id="fh5co-logo"><a href="index.html"><img src="images/logo.png" alt="Free HTML5 Bootstrap Website Template"></a></h1>
 				<nav id="fh5co-main-menu" role="navigation">
 					<ul>
-						<li class="fh5co-active"><a href="index.html">Inicio</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li class="fh5co-active"><a href="index.html">Urgencias</a></li>
+						<li><a href="portfolio.html">Centros</a></li>
+						<li><a href="about.html">Acerca de</a></li>
+						<li><a href="contact.html">Contacto</a></li>
 					</ul>
 				</nav>
-
 			</aside>
 
 			@yield('content')
