@@ -16,10 +16,14 @@ Route::get('/', function () {
 });
 
 Route::get('donador', function () {
-    return view('donador.index');
+    return view('donador.urgencias');
+});
+
+Route::get('donador/acercade', function () {
+    return view('donador.acercade');
 });
 
 Route::get('centro', function() {
-	return view('centros.centro');
+	return view('centros.typography');
 });
 

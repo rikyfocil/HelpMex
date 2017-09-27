@@ -73,17 +73,23 @@
 				
 			</div>
 
-		</div>
 		
-		<div class="col-xs-12">
-			<div class="col-md-9">
-				<div id="map"></div>	
+		
+			<div class="col-xs-12">
+				<div class="col-md-9">
+					<div id="map"></div>
+					<br>	
+				</div>
+				<div class="col-md-3">
+					<h1>Centro de acopio</h1>
+					<p id="infowindow">Da click en un centro de acopio para conocer m&aacute;s.</p>
+				</div>
 			</div>
-			<div class="col-md-3">
-				<h1>Centro de acopio</h1>
-				<p id="infowindow">Da click en un centro de acopio para conocer m&aacute;s.</p>
-			</div>
+
+
+
 		</div>
+
 	</div>
 
 @endsection
