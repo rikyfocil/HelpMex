@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Route::get('donador', function () {
+    return view('donador.index');
+});
 
-Route::get('/home', 'HomeController@index')->name('home');
