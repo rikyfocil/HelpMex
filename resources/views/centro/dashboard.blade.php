@@ -101,7 +101,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <div class="stats">
-                                        <button>Actualizar</button>
+                                        <button class="actualizar">Actualizar</button>
                                         <i class="material-icons">access_time</i> Actualizado hace 4 minutos
                                     </div>
                                 </div>
@@ -215,3 +215,7 @@
 
 
 @endsection
+
+@push('scripts')
+    <script src="{{asset('js/centro.js')}}"></script>
+@endpush

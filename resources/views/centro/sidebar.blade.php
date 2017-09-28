@@ -12,8 +12,11 @@
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" />
     <link href="{{asset('css/material-dashboard.css?v=1.2.0')}}" rel="stylesheet" />
     <link href="{{asset('css/demo.css')}}" rel="stylesheet" />
+    <link rel="stylesheet" href="{{asset('css/urgency.css')}}">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{asset('css/jquery-confirm.css')}}">
+
     <style>
         #map{
             height:400px;
@@ -74,5 +77,10 @@
 <script src="{{asset('js/material-dashboard.js?v=1.2.0')}}"></script>
 <script src="{{asset('js/demo.js')}}"></script>
 <script src="{{asset('js/google_map.js')}}"></script>
+<script src="{{asset('js/jquery-confirm.js')}}"></script>
+
+
+@stack('scripts')
 
 </html>
+

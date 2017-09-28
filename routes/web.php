@@ -50,6 +50,10 @@ Route::get('centro/dashboard', function() {
 	return view('centro.dashboard');
 });
 
+Route::get('centro/dashboard/subcat', function() {
+	return view('centro.subcat1');
+});
+
 
 //Otros
 Route::get('notif', function() {
