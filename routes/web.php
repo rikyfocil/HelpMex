@@ -39,6 +39,6 @@ Route::get('notif', function() {
 	return view('centros.notifications');
 });
 
-Route::get('centros/dashboard', function() {
+Route::get('centro/dashboard', function() {
 	return view('centros.dashboard');
 });

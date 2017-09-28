@@ -23,11 +23,7 @@
 <body>
     <div class="wrapper">
         <div class="sidebar" data-color="purple" data-image="{{asset('images/sidebar-1.jpg')}}">
-            <!--
-        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
-
-        Tip 2: you can also add an image using data-image tag
-    -->
+         
             <div class="logo">
                 <a href="http://www.creative-tim.com" class="simple-text">
                     Creative Tim
@@ -82,48 +78,11 @@
             </div>
         </div>
 
-
-        @yield('content')
-
-        
-        <footer class="footer">
-                <div class="container-fluid">
-                    <nav class="pull-left">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Company
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Portfolio
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Blog
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <p class="copyright pull-right">
-                        &copy;
-                        <script>
-                            document.write(new Date().getFullYear())
-                        </script>
-                        
-                    </p>
-                </div>
-            </footer>
+        <div>
+            @yield('content')
         </div>
     </div>
-    </div>
+    
 </body>
 
 <!--   Core JS Files   -->
