@@ -35,10 +35,14 @@ Route::get('centro/comunidad', function() {
 	return view('centro.typography');
 });
 
-Route::get('notif', function() {
-	return view('centro.notifications');
-});
+Route::get('centro/comunidad/registro', function() {
+	return view('centro.registro');
+})->name('registro');
 
 Route::get('centro/dashboard', function() {
 	return view('centro.dashboard');
+});
+
+Route::get('notif', function() {
+	return view('centro.notifications');
 });
