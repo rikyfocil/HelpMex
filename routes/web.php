@@ -54,6 +54,11 @@ Route::get('centro/info', function() {
 	return view('centro.info');
 })->name('info_centro');
 
+Route::get('centro/dashboard/subcat', function() {
+	return view('centro.subcat1');
+});
+
+
 //Otros
 Route::get('notif', function() {
 	return view('centro.notifications');
