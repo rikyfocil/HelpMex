@@ -65,7 +65,6 @@
 				
 			</div>
 
-		</div>
 
 		<div class="col-xs-12">
 			<div class="col-xs-12">
@@ -79,6 +78,7 @@
 				<p id="infowindow">Da click en un centro de acopio para conocer m&aacute;s.</p>
 			</div>
 		</div>
+
 	</div>
 
 @endsection

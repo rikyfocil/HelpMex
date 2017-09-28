@@ -16,8 +16,12 @@ Route::get('/', function () {
 });
 
 Route::get('donador', function () {
-    return view('donador.index');
-});
+    return view('donador.urgencias');
+})->name('index');
+
+Route::get('acerca_de', function () {
+    return view('donador.acerca_de');
+})->name('acerca_de');
 
 Route::get('donador/subcat', function () {
     return view('donador.subcat');
