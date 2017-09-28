@@ -1,38 +1,42 @@
-.work-item a:hover img.urgency-high, .work-item a:active img.urgency-high, .work-item a:focus img.urgency-high{
-  border: 10px solid #D50F37;
+.work-item.selected.urgency-high{
+	border: solid 5px #D50F37;
 }
 
-.work-item a:hover img.urgency-med, .work-item a:active img.urgency-med, .work-item a:focus img.urgency-med{
-  border: 10px solid #ffff00;
+.work-item.selected.urgency-med{
+	border: solid 5px #ffff00;
 }
 
-.work-item a:hover img.urgency-low, .work-item a:active img.urgency-low, .work-item a:focus img.urgency-low{
-  border: 10px solid #2eb82e;
+.work-item.selected.urgency-low{
+	border: solid 5px #2eb82e;
 }
-
 
 .work-item{
-	height: 300px;
+	padding-top: 10px;
+}
+
+.work-item img{
+	padding-bottom: 10px;
 }
 
 @media(max-width:767px){
-	.work-item{
-		height: 225px;
-	}
 
-	.work-item img{
-		max-height: 155px;
-		object-fit: contain;
-	}
-}
-
-@media(min-width:768px){
 	.work-item{
 		height: 300px;
 	}
 
 	.work-item img{
-		max-height: 250px;
-		object-fit: contain;
+		max-height: 155px;
+		object-fit: fill;
+	}
+}
+
+@media(min-width:768px){
+	.work-item{
+		height: 420px;
+	}
+
+	.work-item img{
+		max-height: 75%;
+		object-fit: fill;
 	}
 }
