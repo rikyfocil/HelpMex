@@ -49,9 +49,8 @@
 				<nav id="fh5co-main-menu" role="navigation">
 					<ul>
 						<li class="{{strpos(Request::url(), 'donador') ? 'fh5co-active' : 'fh5co-inactive' }}"><a href="{{route('index')}}">Urgencias</a></li>
-						<li class="{{strpos(Request::url(), 'centros') ? 'fh5co-active' : 'fh5co-inactive' }}"><a href="portfolio.html">Centros</a></li>
 						<li class="{{strpos(Request::url(), 'acerca_de') ? 'fh5co-active' : 'fh5co-inactive' }}"><a href="{{route('acerca_de')}}">Acerca de</a></li>
-						<li><a href="contact.html">Contacto</a></li>
+						<li class="{{strpos(Request::url(), 'contacto') ? 'fh5co-active' : 'fh5co-inactive' }}"><a href="{{route('contacto')}}">Contacto</a></li>
 					</ul>
 				</nav>
 			</aside>
