@@ -1,100 +1,5 @@
-<<<<<<< HEAD
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="{{asset('images/apple-icon.png')}}" />
-    <link rel="icon" type="image/png" href="{{asset('images/favicon.png')}}" />
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Material Dashboard by Creative Tim</title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
-    <!-- Bootstrap core CSS     -->
-    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" />
-    <!--  Material Dashboard CSS    -->
-    <link href=".{{asset('css/material-dashboard.css?v=1.2.0')}}" rel="stylesheet" />
-    <!--  CSS for Demo Purpose, don't include it in your project     -->
-    <link href="{{asset('css/demo.css')}}" rel="stylesheet" />
-    <!--     Fonts and icons     -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
-</head>
-
-<body>
-    <div class="wrapper">
-        <div class="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
-=======
 @extends('centros.sidebar')
 @section('content')
-<body>
-    <div class="wrapper">
-        <div class="sidebar" data-color="purple" data-image="{{asset('images/sidebar-1.jpg')}}">
->>>>>>> 3501c26ddb208969623c660d74cb62306a101fb8
-            <!--
-        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
-
-        Tip 2: you can also add an image using data-image tag
-    -->
-            <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
-                </a>
-            </div>
-            <div class="sidebar-wrapper">
-                <ul class="nav">
-                    <li>
-                        <a href="dashboard.html">
-                            <i class="material-icons">dashboard</i>
-                            <p>Dashboard</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./user.html">
-                            <i class="material-icons">person</i>
-                            <p>User Profile</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./table.html">
-                            <i class="material-icons">content_paste</i>
-                            <p>Table List</p>
-                        </a>
-                    </li>
-                    <li class="active">
-                        <a href="./typography.html">
-                            <i class="material-icons">library_books</i>
-                            <p>Typography</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./icons.html">
-                            <i class="material-icons">bubble_chart</i>
-                            <p>Icons</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./maps.html">
-                            <i class="material-icons">location_on</i>
-                            <p>Maps</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./notifications.html">
-                            <i class="material-icons text-gray">notifications</i>
-                            <p>Notifications</p>
-                        </a>
-                    </li>
-                    <li class="active-pro">
-                        <a href="upgrade.html">
-                            <i class="material-icons">unarchive</i>
-                            <p>Upgrade to PRO</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
         <div class="main-panel">
             <nav class="navbar navbar-transparent navbar-absolute">
                 <div class="container-fluid">
@@ -174,12 +79,13 @@
                                             <h1>San Francisco Xochiteopan</h1>
                                         </div>
                                         <div class="row">
+                                            <div class="col-xs-6" style="height:40%">
                                             <div id="map"></div>
                                                 <script>
                                                   function initMap() {
                                                     var xochi = {lat: 18.768, lng: -98.613};
                                                     var map = new google.maps.Map(document.getElementById('map'), {
-                                                      zoom: 4,
+                                                      zoom: 9,
                                                       center: xochi
                                                     });
                                                     var marker = new google.maps.Marker({
@@ -191,6 +97,19 @@
                                                 <script async defer
                                                 src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAsqmKnAuericN8VQ1D_jW3CGvVNJ-bcG8&callback=initMap">
                                                 </script>
+                                            </div>
+                                            </div>
+                                            <br>
+                                            <div class="alert alert-warning">
+                                                <div class="container-fluid">
+                                                  <div class="alert-icon">
+                                                    <i class="material-icons">warning</i>
+                                                  </div>
+                                                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                    <span aria-hidden="true"><i class="material-icons">clear</i></span>
+                                                  </button>
+                                                  <b>Situaci&oacute;n grave</b>: Comunidad fuertemente afectada en sismo de 19 de septiembre de 2017.
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -237,28 +156,6 @@
             </footer>
         </div>
     </div>
-</body>
-<<<<<<< HEAD
-<!--   Core JS Files   -->
-<script src="{{asset('js/jquery-3.2.1.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('js/bootstrap.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('js/material.min.js')}}" type="text/javascript"></script>
-<!--  Charts Plugin -->
-<script src="{{asset('js/chartist.min.js')}}"></script>
-<!--  Dynamic Elements plugin -->
-<script src="../assets/js/arrive.min.js"></script>
-<!--  PerfectScrollbar Library -->
-<script src="../assets/js/perfect-scrollbar.jquery.min.js"></script>
-<!--  Notifications Plugin    -->
-<script src="../assets/js/bootstrap-notify.js"></script>
-<!--  Google Maps Plugin    -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-<!-- Material Dashboard javascript methods -->
-<script src="../assets/js/material-dashboard.js?v=1.2.0"></script>
-<!-- Material Dashboard DEMO methods, don't include it in your project! -->
-<script src="../assets/js/demo.js"></script>
 
-</html>
-=======
 @endcontent
->>>>>>> 3501c26ddb208969623c660d74cb62306a101fb8
+
