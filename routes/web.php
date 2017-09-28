@@ -27,3 +27,6 @@ Route::get('centro', function() {
 	return view('centros.typography');
 });
 
+Route::get('notif', function() {
+	return view('centros.notifications');
+});

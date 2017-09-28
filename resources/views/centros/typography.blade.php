@@ -80,24 +80,24 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-xs-6" style="height:40%">
-                                            <div id="map"></div>
-                                                <script>
-                                                  function initMap() {
-                                                    var xochi = {lat: 18.768, lng: -98.613};
-                                                    var map = new google.maps.Map(document.getElementById('map'), {
-                                                      zoom: 9,
-                                                      center: xochi
-                                                    });
-                                                    var marker = new google.maps.Marker({
-                                                      position: xochi,
-                                                      map: map
-                                                    });
-                                                  }
-                                                </script>
-                                                <script async defer
-                                                src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAsqmKnAuericN8VQ1D_jW3CGvVNJ-bcG8&callback=initMap">
-                                                </script>
-                                            </div>
+                                                <div id="map"></div>
+                                                    <script>
+                                                      function initMap() {
+                                                        var xochi = {lat: 18.768, lng: -98.613};
+                                                        var map = new google.maps.Map(document.getElementById('map'), {
+                                                          zoom: 9,
+                                                          center: xochi
+                                                        });
+                                                        var marker = new google.maps.Marker({
+                                                          position: xochi,
+                                                          map: map
+                                                        });
+                                                      }
+                                                    </script>
+                                                    <script async defer
+                                                    src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAsqmKnAuericN8VQ1D_jW3CGvVNJ-bcG8&callback=initMap">
+                                                    </script>
+                                                </div>
                                             </div>
                                             <br>
                                             <div class="alert alert-warning">
@@ -111,6 +111,25 @@
                                                   <b>Situaci&oacute;n grave</b>: Comunidad fuertemente afectada en sismo de 19 de septiembre de 2017.
                                                 </div>
                                             </div>
+                                            Text <br> Text <br> Text <br> Text
+                                            
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="card card-stats">
+                                                <div class="card-header" data-background-color="orange">
+                                                    <i class="material-icons">content_copy</i>
+                                                </div>
+                                                <div class="card-content">
+                                                    <p class="category">Used Space</p>
+                                                    <h3 class="title">49/50<small>GB</small></h3>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <div class="stats">
+                                                        <i class="material-icons text-danger">warning</i> <a href="#pablo">Get More Space...</a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -119,43 +138,7 @@
                     </div>
                 </div>
             </div>
-            <footer class="footer">
-                <div class="container-fluid">
-                    <nav class="pull-left">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Company
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Portfolio
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Blog
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <p class="copyright pull-right">
-                        &copy;
-                        <script>
-                            document.write(new Date().getFullYear())
-                        </script>
-                        <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
-                    </p>
-                </div>
-            </footer>
-        </div>
-    </div>
+            
 
 @endcontent
 
