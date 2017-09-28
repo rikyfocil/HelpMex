@@ -105,7 +105,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"> Typography </a>
+                        <a class="navbar-brand" href="#"> Comunidades </a>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -165,94 +165,32 @@
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header" data-background-color="purple">
-                                    <h4 class="title">Material Dashboard Heading</h4>
-                                    <p class="category">Created using Roboto Font Family</p>
+                                    <h4 class="title">Comunidad</h4>
+                                    <p class="category">Puebla</p>
                                 </div>
                                 <div class="card-content">
                                     <div id="typography">
                                         <div class="title">
-                                            <h2>Typography</h2>
+                                            <h1>San Francisco Xochiteopan</h1>
                                         </div>
                                         <div class="row">
-                                            <div class="tim-typo">
-                                                <h1>
-                                                    <span class="tim-note">Header 1</span>The Life of Material Dashboard </h1>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <h2>
-                                                    <span class="tim-note">Header 2</span>The life of Material Dashboard </h2>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <h3>
-                                                    <span class="tim-note">Header 3</span>The life of Material Dashboard </h3>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <h4>
-                                                    <span class="tim-note">Header 4</span>The life of Material Dashboard </h4>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <h5>
-                                                    <span class="tim-note">Header 5</span>The life of Material Dashboard </h5>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <h6>
-                                                    <span class="tim-note">Header 6</span>The life of Material Dashboard </h6>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <p>
-                                                    <span class="tim-note">Paragraph</span>
-                                                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <span class="tim-note">Quote</span>
-                                                <blockquote>
-                                                    <p>
-                                                        I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.
-                                                    </p>
-                                                    <small>
-                                                        Kanye West, Musician
-                                                    </small>
-                                                </blockquote>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <span class="tim-note">Muted Text</span>
-                                                <p class="text-muted">
-                                                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...
-                                                </p>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <span class="tim-note">Primary Text</span>
-                                                <p class="text-primary">
-                                                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <span class="tim-note">Info Text</span>
-                                                <p class="text-info">
-                                                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <span class="tim-note">Success Text</span>
-                                                <p class="text-success">
-                                                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <span class="tim-note">Warning Text</span>
-                                                <p class="text-warning">
-                                                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...
-                                                </p>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <span class="tim-note">Danger Text</span>
-                                                <p class="text-danger">
-                                                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
-                                            </div>
-                                            <div class="tim-typo">
-                                                <h2>
-                                                    <span class="tim-note">Small Tag</span>
-                                                    Header with small subtitle
-                                                    <br>
-                                                    <small>Use "small" tag for the headers</small>
-                                                </h2>
+                                            <div id="map"></div>
+                                                <script>
+                                                  function initMap() {
+                                                    var xochi = {lat: 18.768, lng: -98.613};
+                                                    var map = new google.maps.Map(document.getElementById('map'), {
+                                                      zoom: 4,
+                                                      center: xochi
+                                                    });
+                                                    var marker = new google.maps.Marker({
+                                                      position: xochi,
+                                                      map: map
+                                                    });
+                                                  }
+                                                </script>
+                                                <script async defer
+                                                src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAsqmKnAuericN8VQ1D_jW3CGvVNJ-bcG8&callback=initMap">
+                                                </script>
                                             </div>
                                         </div>
                                     </div>
