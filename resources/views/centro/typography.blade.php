@@ -158,5 +158,5 @@
             </div>
             
 
-@endcontent
+@endsection
 
