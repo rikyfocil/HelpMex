@@ -46,36 +46,15 @@
                             <p>Informaci&oacute;n de centro</p>
                         </a>
                     </li>
-                    <li class="{{strpos(Request::url(), 'actividades') ? 'active' : 'inactive' }}">
-                        <a href="./table.html">
-                            <i class="material-icons">content_paste</i>
-                            <p>Table List</p>
-                        </a>
-                    </li>
+                    
                     <li class="{{strpos(Request::url(), 'centro') ? 'active' : 'inactive' }}">
                         <a href="./typography.html">
                             <i class="material-icons">library_books</i>
                             <p>Comunidad</p>
                         </a>
                     </li>
-                    <li class="{{strpos(Request::url(), 'actividades') ? 'active' : 'inactive' }}">
-                        <a href="./icons.html">
-                            <i class="material-icons">bubble_chart</i>
-                            <p>Icons</p>
-                        </a>
-                    </li>
-                    <li class="{{strpos(Request::url(), 'actividades') ? 'active' : 'inactive' }}">
-                        <a href="./maps.html">
-                            <i class="material-icons">location_on</i>
-                            <p>Maps</p>
-                        </a>
-                    </li>
-                    <li class="{{strpos(Request::url(), 'actividades') ? 'active' : 'inactive' }}">
-                        <a href="./notifications.html">
-                            <i class="material-icons text-gray">notifications</i>
-                            <p>Notifications</p>
-                        </a>
-                    </li>
+                    
+                   
                     
                 </ul>
             </div>
