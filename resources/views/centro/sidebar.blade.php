@@ -31,23 +31,30 @@
             </div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
-                    <li class="{{strpos(Request::url(), 'actividades') ? 'active' : 'inactive' }}">
-                        <a href="dashboard.html">
+                    <li class="{{strpos(Request::url(), 'centro/dashboard') ? 'active' : 'inactive' }}">
+                        <a href="{{route('dashboard')}}">
                             <i class="material-icons">dashboard</i>
                             <p>Dashboard</p>
                         </a>
                     </li>
                     <li class="{{strpos(Request::url(), 'actividades') ? 'active' : 'inactive' }}">
-                        <a href="./user.html">
+                        <a href="{{route('info_centro')}}">
                             <i class="material-icons">person</i>
                             <p>Informaci&oacute;n de centro</p>
                         </a>
                     </li>
                     
-                    <li class="{{strpos(Request::url(), 'centro') ? 'active' : 'inactive' }}">
-                        <a href="./typography.html">
+                    <li class="{{strpos(Request::url(), 'centro/comunidades') ? 'active' : 'inactive' }}">
+                        <a href="{{route('comunidades')}}">
                             <i class="material-icons">library_books</i>
                             <p>Comunidad</p>
+                        </a>
+                    </li>
+
+                     <li class="{{strpos(Request::url(), 'centro/comunidades/registro') ? 'active' : 'inactive' }}">
+                        <a href="{{route('registro_comunidades')}}">
+                            <i class="material-icons">create</i>
+                            <p>Registro de comunidad</p>
                         </a>
                     </li>
                     

@@ -36,7 +36,7 @@ Route::get('donador/subcat', function () {
 //Rutas para los centros
 Route::get('centro/comunidades', function() {
 	return view('centro.typography');
-});
+})->name('comunidades');
 
 Route::get('centro/comunidades/registro', function() {
 	return view('centro.registro_comunidades');
@@ -48,8 +48,11 @@ Route::get('centro/usuarios/registro', function() {
 
 Route::get('centro/dashboard', function() {
 	return view('centro.dashboard');
-});
+})->name('dashboard');
 
+Route::get('centro/info', function() {
+	return view('centro.info');
+})->name('info_centro');
 
 //Otros
 Route::get('notif', function() {
