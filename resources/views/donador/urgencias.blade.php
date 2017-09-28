@@ -35,10 +35,20 @@
 						<h3 class="fh5co-work-title">Material de Construcción</h3>
 						<button class="btn btn-info"><i class="fa fa-info-circle"></i></button>
 					</div>
+<<<<<<< HEAD:resources/views/donador/urgencias.blade.php
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+						<a href="work.html">
+
+							<img src="https://losmejores.top/imagenes/los-mejores-panales.jpg" class="urgency-med img-responsive col-xs-12">
+
+							<h3 class="fh5co-work-title">Pañales</h3>
+						</a>
+=======
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item urgency-med">
 						<img src="https://losmejores.top/imagenes/los-mejores-panales.jpg" class="urgency-med img-responsive col-xs-12">
 						<h3 class="fh5co-work-title">Pañales</h3>
 						<button class="btn btn-info"><i class="fa fa-info-circle"></i></button>
+>>>>>>> 3501c26ddb208969623c660d74cb62306a101fb8:resources/views/donador/index.blade.php
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item urgency-med">
 						<img src="https://queretaro.quadratin.com.mx/www/wp-content/uploads/2017/07/COMIDA-MASCOTAS.jpg" class="urgency-med img-responsive col-xs-12">
@@ -65,6 +75,19 @@
 				
 			</div>
 
+<<<<<<< HEAD:resources/views/donador/urgencias.blade.php
+		
+		
+			<div class="col-xs-12">
+				<div class="col-md-9">
+					<div id="map"></div>
+					<br>	
+				</div>
+				<div class="col-md-3">
+					<h1>Centro de acopio</h1>
+					<p id="infowindow">Da click en un centro de acopio para conocer m&aacute;s.</p>
+				</div>
+=======
 		</div>
 
 		<div class="col-xs-12">
@@ -77,8 +100,13 @@
 			<div class="col-md-3">
 				<h1>Centro de acopio</h1>
 				<p id="infowindow">Da click en un centro de acopio para conocer m&aacute;s.</p>
+>>>>>>> 3501c26ddb208969623c660d74cb62306a101fb8:resources/views/donador/index.blade.php
 			</div>
+
+
+
 		</div>
+
 	</div>
 
 @endsection
