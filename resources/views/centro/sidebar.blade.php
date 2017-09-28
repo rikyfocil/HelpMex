@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="{{asset('images/apple-icon.png')}}" />
     <link rel="icon" type="image/png" href="{{asset('images/favicon.png')}}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Material Dashboard by Creative Tim</title>
+    <title>Centro de acopio</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" />
@@ -18,18 +18,9 @@
 <body>
     <div class="wrapper">
         <div class="sidebar" data-color="purple" data-image="{{asset('images/sidebar-1.jpg')}}">
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-         
->>>>>>> 7c858379c6dcb2d1000b0f46b00ae38ab2875a58
-=======
-         
->>>>>>> 7c858379c6dcb2d1000b0f46b00ae38ab2875a58
             <div class="logo">
                 <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
+                    Helpmex
                 </a>
             </div>
             <div class="sidebar-wrapper">
