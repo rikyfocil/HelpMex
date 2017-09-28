@@ -79,29 +79,13 @@
                                             <h1>San Francisco Xochiteopan</h1>
                                         </div>
 
-                                        <!--
                                         <div class="row">
                                             <div class="col-xs-6" style="height:40%">
                                                 <div id="map"></div>
-                                                    <script>
-                                                      function initMap() {
-                                                        var xochi = {lat: 18.768, lng: -98.613};
-                                                        var map = new google.maps.Map(document.getElementById('map'), {
-                                                          zoom: 9,
-                                                          center: xochi
-                                                        });
-                                                        var marker = new google.maps.Marker({
-                                                          position: xochi,
-                                                          map: map
-                                                        });
-                                                      }
-                                                    </script>
-                                                    <script async defer
-                                                    src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAsqmKnAuericN8VQ1D_jW3CGvVNJ-bcG8&callback=initMap">
-                                                    </script>
-                                                </div>
-                                            </div>
-                                            -->
+                                                
+                                            </div>  
+                                        </div>
+                                        <!--
                                         <div class="row">
                                             <div class="col-xs-12">
                                                 <div class="col-xs-12">
@@ -116,6 +100,9 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        -->
+                                        <!-- Alerta -->
+
                                         <div class="row">
                                             <br>
                                             <div class="alert alert-warning">
@@ -190,7 +177,6 @@
                     </div>
                 </div>
             </div>
-            
 
 @endsection
 
