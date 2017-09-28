@@ -35,6 +35,7 @@
 		<link rel="stylesheet" href="{{asset('css/style.css')}}">
 		<link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
 		<link rel="stylesheet" href="{{asset('css/urgency.css')}}">
+		<link rel="stylesheet" href="{{asset('css/jquery-confirm.css')}}">
 
 		<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 	</head>
@@ -47,9 +48,9 @@
 				<h1 id="fh5co-logo"><a href="index.html"><img src="{{ asset('images/logo.png') }}" alt="Free HTML5 Bootstrap Website Template"></a></h1>
 				<nav id="fh5co-main-menu" role="navigation">
 					<ul>
-						<li class="fh5co-active"><a href="index.html">Urgencias</a></li>
-						<li><a href="portfolio.html">Centros</a></li>
-						<li><a href="about.html">Acerca de</a></li>
+						<li class="{{strpos(Request::url(), 'donador') ? 'fh5co-active' : 'fh5co-inactive' }}"><a href="{{route('index')}}">Urgencias</a></li>
+						<li class="{{strpos(Request::url(), 'centros') ? 'fh5co-active' : 'fh5co-inactive' }}"><a href="portfolio.html">Centros</a></li>
+						<li class="{{strpos(Request::url(), 'acerca_de') ? 'fh5co-active' : 'fh5co-inactive' }}"><a href="{{route('acerca_de')}}">Acerca de</a></li>
 						<li><a href="contact.html">Contacto</a></li>
 					</ul>
 				</nav>
@@ -68,6 +69,7 @@
 		<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
 		<script src="{{asset('js/jquery.countTo.js')}}"></script>
 		<script src="{{asset('js/main.js')}}"></script>
+		<script src="{{asset('js/jquery-confirm.js')}}"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 		<script src="{{asset('js/google_map.js')}}"></script>
 	    @stack('scripts')

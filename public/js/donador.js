@@ -8,3 +8,13 @@ $(".work-item img").click(function(){
 	else
 		item.removeClass("selected")
 });
+
+$('button').click(function(){
+	$.confirm({
+	    title: 'Subcategor&iacute;a',
+	    content: 'url:' + window.location.href  + '/subcat',
+	    onContentReady: function () {
+	    },
+	    columnClass: 'medium',
+	});
+});

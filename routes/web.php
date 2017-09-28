@@ -17,10 +17,14 @@ Route::get('/', function () {
 
 Route::get('donador', function () {
     return view('donador.urgencias');
-});
+})->name('index');
 
-Route::get('donador/acercade', function () {
-    return view('donador.acercade');
+Route::get('acerca_de', function () {
+    return view('donador.acerca_de');
+})->name('acerca_de');
+
+Route::get('donador/subcat', function () {
+    return view('donador.subcat');
 });
 
 Route::get('centro', function() {
