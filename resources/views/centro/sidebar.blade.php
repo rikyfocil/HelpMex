@@ -26,7 +26,7 @@
          
             <div class="logo">
                 <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
+                    Nombre de app
                 </a>
             </div>
             <div class="sidebar-wrapper">

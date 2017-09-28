@@ -6779,3 +6779,14 @@ footer .btn {
         overflow: visible;
     }
 }
+
+.wrapper{
+    height: 100%;
+}
+
+.card-header h1{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 16px; 
+    font-size: 2vw;
+}

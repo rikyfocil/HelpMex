@@ -6,87 +6,42 @@
         
         </div>
         <div class="main-panel">
-            <nav class="navbar navbar-transparent navbar-absolute">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#"> Material Dashboard </a>
-                    </div>
-                    <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">dashboard</i>
-                                    <p class="hidden-lg hidden-md">Dashboard</p>
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">notifications</i>
-                                    <span class="notification">5</span>
-                                    <p class="hidden-lg hidden-md">Notifications</p>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="#">Mike John responded to your email</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">You have 5 new tasks</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">You're now friend with Andrew</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Another Notification</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Another One</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">person</i>
-                                    <p class="hidden-lg hidden-md">Profile</p>
-                                </a>
-                            </li>
-                        </ul>
-                        <form class="navbar-form navbar-right" role="search">
-                            <div class="form-group  is-empty">
-                                <input type="text" class="form-control" placeholder="Search">
-                                <span class="material-input"></span>
-                            </div>
-                            <button type="submit" class="btn btn-white btn-round btn-just-icon">
-                                <i class="material-icons">search</i>
-                                <div class="ripple-container"></div>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
+            
             <div class="content">
                 <div class="container-fluid">
+
+                    <h1>Tus comunidades</h1>
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="card card-stats">
-                                <div class="card-header" data-background-color="orange">
-                                    <i class="material-icons">content_copy</i>
+                                <div class="card-header" data-background-color="red">
+                                    <i class="material-icons">error</i>
                                 </div>
                                 <div class="card-content">
-                                    <p class="category">Used Space</p>
-                                    <h3 class="title">49/50
-                                        <small>GB</small>
+                                    <p class="category">Tienen necesidades urgentes</p>
+                                    <h3 class="title"> 1
+                                        <small>comunidades</small>
                                     </h3>
                                 </div>
                                 <div class="card-footer">
                                     <div class="stats">
-                                        <i class="material-icons text-danger">warning</i>
-                                        <a href="#pablo">Get More Space...</a>
+                                        <a href="#More">Ir a la secci&oacute;n</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="card card-stats">
+                                <div class="card-header" data-background-color="orange">
+                                    <i class="material-icons">store</i>
+                                </div>
+                                <div class="card-content">
+                                    <p class="category">Centros de acopio</p>
+                                    <h3 class="title">3 <small>centros</small></h3>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="stats">
+                                        Que puedes ayudar con lo que tienes
                                     </div>
                                 </div>
                             </div>
@@ -94,31 +49,15 @@
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="card card-stats">
                                 <div class="card-header" data-background-color="green">
-                                    <i class="material-icons">store</i>
+                                    <i class="material-icons">directions_bus</i>
                                 </div>
                                 <div class="card-content">
-                                    <p class="category">Revenue</p>
-                                    <h3 class="title">$34,245</h3>
+                                    <p class="category">Envios a tu centro</p>
+                                    <h3 class="title">2 envios</h3>
                                 </div>
                                 <div class="card-footer">
                                     <div class="stats">
-                                        <i class="material-icons">date_range</i> Last 24 Hours
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="card card-stats">
-                                <div class="card-header" data-background-color="red">
-                                    <i class="material-icons">info_outline</i>
-                                </div>
-                                <div class="card-content">
-                                    <p class="category">Fixed Issues</p>
-                                    <h3 class="title">75</h3>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="stats">
-                                        <i class="material-icons">local_offer</i> Tracked from Github
+                                        Confirma su recepci&oacute;n m&aacute;s abajo
                                     </div>
                                 </div>
                             </div>
@@ -126,73 +65,105 @@
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="card card-stats">
                                 <div class="card-header" data-background-color="blue">
-                                    <i class="fa fa-twitter"></i>
+                                    <i class="material-icons">forward</i>
                                 </div>
                                 <div class="card-content">
-                                    <p class="category">Followers</p>
-                                    <h3 class="title">+245</h3>
+                                    <p class="category">Envios desde tu centro</p>
+                                    <h3 class="title">1 <small>envio en progreso</small></h3>
                                 </div>
                                 <div class="card-footer">
                                     <div class="stats">
-                                        <i class="material-icons">update</i> Just Updated
+                                        Registra que estan completos m&aacute;s abajo.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-header card-chart" data-background-color="green">
-                                    <div class="ct-chart" id="dailySalesChart"></div>
-                                </div>
-                                <div class="card-content">
-                                    <h4 class="title">Daily Sales</h4>
-                                    <p class="category">
-                                        <span class="text-success"><i class="fa fa-long-arrow-up"></i> 55% </span> increase in today sales.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="stats">
-                                        <i class="material-icons">access_time</i> updated 4 minutes ago
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-header card-chart" data-background-color="orange">
-                                    <div class="ct-chart" id="emailsSubscriptionChart"></div>
-                                </div>
-                                <div class="card-content">
-                                    <h4 class="title">Email Subscriptions</h4>
-                                    <p class="category">Last Campaign Performance</p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="stats">
-                                        <i class="material-icons">access_time</i> campaign sent 2 days ago
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+                        <!--  Cartas comunidades -->
+                        
                         <div class="col-md-4">
                             <div class="card">
                                 <div class="card-header card-chart" data-background-color="red">
-                                    <div class="ct-chart" id="completedTasksChart"></div>
+                                    <h1 class="text-center align-middle">Chietla</h1>
                                 </div>
                                 <div class="card-content">
-                                    <h4 class="title">Completed Tasks</h4>
-                                    <p class="category">Last Campaign Performance</p>
+                                    <h6> 300 habitantes </h6>
+                                    <h4 class="title">Necesidades:</h4>
+                                    <p class="category">
+                                        <span class="text-danger"><i class="fa fa-exclamation"></i> Agua </span> <br>
+                                        <span class="text-danger"><i class="fa fa-exclamation"></i> Enlatados </span> <br>
+                                        <span class="text-danger"><i class="fa fa-exclamation"></i> Material de construcci&oacute;n </span> <br>
+                                        <span class="text-danger"><i class="fa fa-exclamation"></i> Comida para beb&eacute; </span> <br>
+                                    </p>
+                                    <button>Ver todo</button>
                                 </div>
                                 <div class="card-footer">
                                     <div class="stats">
-                                        <i class="material-icons">access_time</i> campaign sent 2 days ago
+                                        <button>Actualizar</button>
+                                        <i class="material-icons">access_time</i> Actualizado hace 4 minutos
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header card-chart" data-background-color="orange">
+                                    <h1 class="text-center align-middle">Tetela del volcan</h1>
+                                </div>
+                                <div class="card-content">
+                                    <h6> 600 habitantes </h6>
+                                    <h4 class="title">Necesidades:</h4>
+                                    <p class="category">
+                                        <span class="text-danger"><i class="fa fa-exclamation"></i> Agua </span> <br>
+                                        <span class="text-warning"><i class="fa fa-exclamation-triangle"></i> Enlatados </span> <br>
+                                        <span class="text-success"><i class="fa fa-check"></i> Material de construcci&oacute;n </span> <br>
+                                        <span class=""><i class="fa fa-ban"></i> Comida para beb&eacute; </span> <br>
+                                    </p>
+                                    <button>Ver todo</button>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="stats">
+                                        <button>Actualizar</button>
+                                        <i class="material-icons">access_time</i> Actualizado hace 4 minutos
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header card-chart" data-background-color="green">
+                                    <h1 class="text-center align-middle">San Francisco Xochiteopan</h1>
+                                </div>
+                                <div class="card-content">
+                                    <h6> 1000 habitantes </h6>
+                                    <h4 class="title">Necesidades:</h4>
+                                    <p class="category">
+                                        <span class="text-success"><i class="fa fa-check"></i> Agua </span> <br>
+                                        <span class="text-success"><i class="fa fa-check"></i> Enlatados </span> <br>
+                                        <span class=""><i class="fa fa-ban"></i> Material de construcci&oacute;n </span> <br>
+                                        <span class=""><i class="fa fa-ban"></i> Comida para beb&eacute; </span> <br>
+                                    </p>
+                                    <button>Ver todo</button>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="stats">
+                                        <button>Actualizar</button>
+                                        <i class="material-icons">access_time</i> Actualizado hace 4 minutos
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <!-- Fin carta comunidad -->
                     </div>
+
                     <div class="row">
-                        <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-12 col-md-12">
                             <div class="card card-nav-tabs">
                                 <div class="card-header" data-background-color="purple">
                                     <div class="nav-tabs-navigation">
@@ -410,45 +381,43 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-12 col-md-12">
                             <div class="card">
                                 <div class="card-header" data-background-color="orange">
-                                    <h4 class="title">Employees Stats</h4>
-                                    <p class="category">New employees on 15th September, 2016</p>
+                                    <h4 class="title">Centros que requieren apoyo</h4>
+                                    <p class="category">Solo se muestran solicitudes que puedas atender por ubicaci&oacute;n y recursos</p>
                                 </div>
                                 <div class="card-content table-responsive">
                                     <table class="table table-hover">
                                         <thead class="text-warning">
-                                            <th>ID</th>
-                                            <th>Name</th>
-                                            <th>Salary</th>
-                                            <th>Country</th>
+                                            <th>Centro</th>
+                                            <th>Distancia</th>
+                                            <th>Categoría requerida</th>
+                                            <th>Estatus</th>
+                                            <th>Opciones</th>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Dakota Rice</td>
-                                                <td>$36,738</td>
-                                                <td>Niger</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Minerva Hooper</td>
-                                                <td>$23,789</td>
-                                                <td>Curaçao</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>Sage Rodriguez</td>
-                                                <td>$56,142</td>
-                                                <td>Netherlands</td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>Philip Chaney</td>
-                                                <td>$38,735</td>
-                                                <td>Korea, South</td>
-                                            </tr>
+                                           <tr>
+                                               <td>Chietla principal</td>
+                                               <td>23 KM</td>
+                                               <td><button class="btn btn-warning">Alimentos</button></td>
+                                               <td></td>
+                                               <td><button class="btn btn-success">Apoyar</button></td>
+                                           </tr>
+                                           <tr>
+                                               <td>Tetela principal</td>
+                                               <td>30 KM</td>
+                                               <td><button class="btn btn-danger">Material de construcción</button></td>
+                                               <td></td>
+                                               <td><button class="btn btn-success">Apoyar</button></td>
+                                           </tr>
+                                           <tr>
+                                               <td>Banco de alimentos</td>
+                                               <td>50 KM</td>
+                                               <td><button class="btn btn-warning">Agua</button></td>
+                                               <td><button class="btn btn-info">Apoyo prometido</button></td>
+                                               <td><button class="btn btn-success">Apoyo enviado</button><button class="btn btn-danger">Cancelar envio</button></td>
+                                           </tr>
                                         </tbody>
                                     </table>
                                 </div>
