@@ -23,6 +23,10 @@ Route::get('acerca_de', function () {
     return view('donador.acerca_de');
 })->name('acerca_de');
 
+Route::get('contacto', function () {
+    return view('donador.contacto');
+})->name('contacto');
+
 Route::get('donador/subcat', function () {
     return view('donador.subcat');
 });
