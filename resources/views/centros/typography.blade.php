@@ -1,71 +1,6 @@
 @extends('centros.sidebar')
 @section('content')
-<body>
-    <div class="wrapper">
-        <div class="sidebar" data-color="purple" data-image="{{asset('images/sidebar-1.jpg')}}">
-            <!--
-        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 
-        Tip 2: you can also add an image using data-image tag
-    -->
-            <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
-                </a>
-            </div>
-            <div class="sidebar-wrapper">
-                <ul class="nav">
-                    <li>
-                        <a href="dashboard.html">
-                            <i class="material-icons">dashboard</i>
-                            <p>Dashboard</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./user.html">
-                            <i class="material-icons">person</i>
-                            <p>User Profile</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./table.html">
-                            <i class="material-icons">content_paste</i>
-                            <p>Table List</p>
-                        </a>
-                    </li>
-                    <li class="active">
-                        <a href="./typography.html">
-                            <i class="material-icons">library_books</i>
-                            <p>Typography</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./icons.html">
-                            <i class="material-icons">bubble_chart</i>
-                            <p>Icons</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./maps.html">
-                            <i class="material-icons">location_on</i>
-                            <p>Maps</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./notifications.html">
-                            <i class="material-icons text-gray">notifications</i>
-                            <p>Notifications</p>
-                        </a>
-                    </li>
-                    <li class="active-pro">
-                        <a href="upgrade.html">
-                            <i class="material-icons">unarchive</i>
-                            <p>Upgrade to PRO</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
         <div class="main-panel">
             <nav class="navbar navbar-transparent navbar-absolute">
                 <div class="container-fluid">
@@ -145,12 +80,13 @@
                                             <h1>San Francisco Xochiteopan</h1>
                                         </div>
                                         <div class="row">
+                                            <div class="col-xs-6" style="height:40%">
                                             <div id="map"></div>
                                                 <script>
                                                   function initMap() {
                                                     var xochi = {lat: 18.768, lng: -98.613};
                                                     var map = new google.maps.Map(document.getElementById('map'), {
-                                                      zoom: 4,
+                                                      zoom: 9,
                                                       center: xochi
                                                     });
                                                     var marker = new google.maps.Marker({
@@ -162,6 +98,19 @@
                                                 <script async defer
                                                 src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAsqmKnAuericN8VQ1D_jW3CGvVNJ-bcG8&callback=initMap">
                                                 </script>
+                                            </div>
+                                            </div>
+                                            <br>
+                                            <div class="alert alert-warning">
+                                                <div class="container-fluid">
+                                                  <div class="alert-icon">
+                                                    <i class="material-icons">warning</i>
+                                                  </div>
+                                                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                    <span aria-hidden="true"><i class="material-icons">clear</i></span>
+                                                  </button>
+                                                  <b>Situaci&oacute;n grave</b>: Comunidad fuertemente afectada en sismo de 19 de septiembre de 2017.
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
