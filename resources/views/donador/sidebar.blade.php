@@ -44,7 +44,7 @@
 			<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 			<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
-				<h1 id="fh5co-logo"><a href="index.html"><img src="images/logo.png" alt="Free HTML5 Bootstrap Website Template"></a></h1>
+				<h1 id="fh5co-logo"><a href="index.html"><img src="{{ asset('images/logo.png') }}" alt="Free HTML5 Bootstrap Website Template"></a></h1>
 				<nav id="fh5co-main-menu" role="navigation">
 					<ul>
 						<li class="fh5co-active"><a href="index.html">Urgencias</a></li>
@@ -70,6 +70,7 @@
 		<script src="{{asset('js/main.js')}}"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 		<script src="{{asset('js/google_map.js')}}"></script>
+	    @stack('scripts')
 
 	</body>
 </html>

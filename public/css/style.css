@@ -300,9 +300,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .work-item a:hover, .work-item a:active, .work-item a:focus {
   text-decoration: none;
 }
-.work-item a:hover img, .work-item a:active img, .work-item a:focus img {
-  border: 10px solid #000;
-}
 
 .fh5co-services {
   margin-top: 5px;

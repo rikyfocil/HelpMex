@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
 
@@ -24,6 +25,13 @@
 <body>
     <div class="wrapper">
         <div class="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
+=======
+@extends('centros.sidebar')
+@section('content')
+<body>
+    <div class="wrapper">
+        <div class="sidebar" data-color="purple" data-image="{{asset('images/sidebar-1.jpg')}}">
+>>>>>>> 3501c26ddb208969623c660d74cb62306a101fb8
             <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 
@@ -292,6 +300,7 @@
         </div>
     </div>
 </body>
+<<<<<<< HEAD
 <!--   Core JS Files   -->
 <script src="{{asset('js/jquery-3.2.1.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('js/bootstrap.min.js')}}" type="text/javascript"></script>
@@ -312,3 +321,6 @@
 <script src="../assets/js/demo.js"></script>
 
 </html>
+=======
+@endcontent
+>>>>>>> 3501c26ddb208969623c660d74cb62306a101fb8
