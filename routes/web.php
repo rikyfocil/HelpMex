@@ -27,7 +27,7 @@ Route::get('donador/subcat', function () {
     return view('donador.subcat');
 });
 
-Route::get('centro', function() {
+Route::get('centro/comunidad', function() {
 	return view('centros.typography');
 });
 
