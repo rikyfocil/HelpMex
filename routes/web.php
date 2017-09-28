@@ -32,13 +32,13 @@ Route::get('donador/subcat', function () {
 });
 
 Route::get('centro/comunidad', function() {
-	return view('centros.typography');
+	return view('centro.typography');
 });
 
 Route::get('notif', function() {
-	return view('centros.notifications');
+	return view('centro.notifications');
 });
 
-Route::get('centros/dashboard', function() {
-	return view('centros.dashboard');
+Route::get('centro/dashboard', function() {
+	return view('centro.dashboard');
 });
