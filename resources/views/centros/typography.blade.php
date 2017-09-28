@@ -78,6 +78,8 @@
                                         <div class="title">
                                             <h1>San Francisco Xochiteopan</h1>
                                         </div>
+
+                                        <!--
                                         <div class="row">
                                             <div class="col-xs-6" style="height:40%">
                                                 <div id="map"></div>
@@ -99,6 +101,22 @@
                                                     </script>
                                                 </div>
                                             </div>
+                                            -->
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div class="col-xs-12">
+                                                    <h2>Centros de acopio que pueden recibir tu donativo</h2>
+                                                </div>
+                                                <div class="col-md-9">
+                                                    <div id="map"></div>    
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <h1>Centro de acopio</h1>
+                                                    <p id="infowindow">Da click en un centro de acopio para conocer m&aacute;s.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
                                             <br>
                                             <div class="alert alert-warning">
                                                 <div class="container-fluid">
