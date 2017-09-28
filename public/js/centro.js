@@ -13,5 +13,9 @@ $('button.actualizar').click(function(){
 function changeUrgencySelection(){
 	$(this).closest('.subcat').find('div.selected').removeClass('selected');
 	$(this).closest('div').addClass('selected');
-}
+};
+
+$('.vertodo').click(function(){
+	window.location.href =  "comunidades";
+});
 

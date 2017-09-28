@@ -97,7 +97,7 @@
                                         <span class="text-danger"><i class="fa fa-exclamation"></i> Material de construcci&oacute;n </span> <br>
                                         <span class="text-danger"><i class="fa fa-exclamation"></i> Comida para beb&eacute; </span> <br>
                                     </p>
-                                    <button>Ver todo</button>
+                                    <button class="vertodo">Ver todo</button>
                                 </div>
                                 <div class="card-footer">
                                     <div class="stats">
@@ -122,11 +122,11 @@
                                         <span class="text-success"><i class="fa fa-check"></i> Material de construcci&oacute;n </span> <br>
                                         <span class=""><i class="fa fa-ban"></i> Comida para beb&eacute; </span> <br>
                                     </p>
-                                    <button>Ver todo</button>
+                                    <button class="vertodo">Ver todo</button>
                                 </div>
                                 <div class="card-footer">
                                     <div class="stats">
-                                        <button>Actualizar</button>
+                                        <button class="actualizar">Actualizar</button>
                                         <i class="material-icons">access_time</i> Actualizado hace 4 minutos
                                     </div>
                                 </div>
@@ -148,11 +148,11 @@
                                         <span class=""><i class="fa fa-ban"></i> Material de construcci&oacute;n </span> <br>
                                         <span class=""><i class="fa fa-ban"></i> Comida para beb&eacute; </span> <br>
                                     </p>
-                                    <button>Ver todo</button>
+                                    <button class="vertodo">Ver todo</button>
                                 </div>
                                 <div class="card-footer">
                                     <div class="stats">
-                                        <button>Actualizar</button>
+                                        <button class="actualizar">Actualizar</button>
                                         <i class="material-icons">access_time</i> Actualizado hace 4 minutos
                                     </div>
                                 </div>
@@ -207,6 +207,40 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="row">
+                   
+                        <div class="col-lg-12 col-md-12">
+                            <div class="card">
+                                <div class="card-header" data-background-color="green">
+                                    <h4 class="title">Centros que te enviaron apoyo</h4>
+                                    <p class="category">Espera el siguiente apoyo</p>
+                                </div>
+                                <div class="card-content table-responsive">
+                                    <table class="table table-hover">
+                                        <thead class="text-success">
+                                            <th>Centro</th>
+                                            <th>Categoría enviada</th>
+                                            <th>Cantidad</th>
+                                            <th>Estatus</th>
+                                            <th>Contacto</th>
+                                            <th>Opciones</th>
+                                        </thead>
+                                        <tbody>
+                                           <tr>
+                                               <td>Banco de alimentos</td>
+                                               <td>Agua</td>
+                                               <td>200 Litros</td>
+                                               <td>Enviado</td>
+                                               <td>222 299 1123</td>
+                                               <td><button class="btn btn-success recibido">Recibido</button></td>
+                                           </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
@@ -218,4 +252,9 @@
 
 @push('scripts')
     <script src="{{asset('js/centro.js')}}"></script>
+    <script>
+        $('button.recibido').click(function(){
+            $(this).closest("tr").fadeOut();
+        });
+    </script>
 @endpush

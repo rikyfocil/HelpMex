@@ -58,6 +58,10 @@ Route::get('centro/dashboard/subcat', function() {
 	return view('centro.subcat1');
 });
 
+Route::get('centro/comunidades/subcat', function() {
+	return view('centro.subcat1');
+});
+
 
 //Otros
 Route::get('notif', function() {

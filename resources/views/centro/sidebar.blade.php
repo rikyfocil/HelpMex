@@ -60,9 +60,20 @@
                             <p>Registro de comunidad</p>
                         </a>
                     </li>
-                    
-                   
-                    
+                            
+                    <li>
+                        <a href="{{route('registro_comunidades')}}">
+                            <i class="fa fa-arrow-up"></i>
+                            <p>Priorizaci&oacute;n de viveres a comunidades</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{route('registro_comunidades')}}">
+                            <i class="fa  fa-hospital-o"></i>
+                            <p>Asignación de centros de acopio secundarios</p>
+                        </a>
+                    </li>
+            
                 </ul>
             </div>
         </div>
