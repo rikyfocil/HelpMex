@@ -1,4 +1,4 @@
-@extends('centros.sidebar')
+@extends('centro.sidebar')
 @section('content')
 
     <div class="wrapper">
