@@ -78,29 +78,16 @@
                                         <div class="title">
                                             <h1>San Francisco Xochiteopan</h1>
                                         </div>
+                                        <div class="title">
+                                            <h3>Poblaci&oacute;n: 945</h3>
+                                            <h3>Municipio: Atzitzihuac&aacute;n</h3>
+                                        </div>
 
                                         <div class="row">
-                                            <div class="col-xs-6" style="height:40%">
+                                            <div class="col-lg-12 col-md-6">
                                                 <div id="map"></div>
-                                                
                                             </div>  
                                         </div>
-                                        <!--
-                                        <div class="row">
-                                            <div class="col-xs-12">
-                                                <div class="col-xs-12">
-                                                    <h2>Centros de acopio que pueden recibir tu donativo</h2>
-                                                </div>
-                                                <div class="col-md-9">
-                                                    <div id="map"></div>    
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <h1>Centro de acopio</h1>
-                                                    <p id="infowindow">Da click en un centro de acopio para conocer m&aacute;s.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        -->
                                         <!-- Alerta -->
 
                                         <div class="row">
@@ -116,23 +103,23 @@
                                                   <b>Situaci&oacute;n grave</b>: Comunidad fuertemente afectada en sismo de 19 de septiembre de 2017.
                                                 </div>
                                             </div>
-                                            Text <br> Text <br> Text <br> Text
                                             
 
                                         </div>
                                         <!-- <div class="row"> -->
                                             <div class="col-lg-4 col-md-6 col-sm-6">
                                                 <div class="card card-stats">
-                                                    <div class="card-header" data-background-color="orange">
+                                                    <div class="card-header" data-background-color="red">
                                                         <i class="material-icons">invert_colors</i>
                                                     </div>
                                                     <div class="card-content">
                                                         <p class="category">Agua</p>
-                                                        <h3 class="title">23<small> litros</small></h3>
+                                                        <h3 class="title">Urgencia:<small> grave</small></h3>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="stats">
-                                                            <i class="material-icons text-danger">warning</i> <a href="#pablo">Urgente</a>
+                                                           
+                                                            <button class="btn btn-default" type="button">Cambiar urgencia</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -144,27 +131,29 @@
                                                     </div>
                                                     <div class="card-content">
                                                         <p class="category">Enlatados</p>
-                                                        <h3 class="title">40<small>kg</small></h3>
+                                                        <h3 class="title">Urgencia:<small> leve</small></h3>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="stats">
-                                                            <i class="material-icons">access_time</i> Actualizado hace 20min
+                                                           
+                                                            <button class="btn btn-default" type="button">Cambiar urgencia</button>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-6 col-sm-6">
                                                 <div class="card card-stats">
-                                                    <div class="card-header" data-background-color="blue">
+                                                    <div class="card-header" data-background-color="orange">
                                                         <i class="material-icons">home</i>
                                                     </div>
                                                     <div class="card-content">
                                                         <p class="category">Material para construcci&oacute;n</p>
-                                                        <h3 class="title">100<small> palas</small></h3>
+                                                        <h3 class="title">Urgencia:<small> moderada</small></h3>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="stats">
-                                                            <i class="material-icons">date_range</i> Necesitado para el 3 de octubre
+                                                          
+                                                            <button class="btn btn-default" type="button">Cambiar urgencia</button>
                                                         </div>
                                                     </div>
                                                 </div>
