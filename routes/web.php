@@ -19,6 +19,10 @@ Route::get('donador', function () {
     return view('donador.index');
 });
 
+Route::get('donador/subcat', function () {
+    return view('donador.subcat');
+});
+
 Route::get('centro', function() {
 	return view('centros.typography');
 });

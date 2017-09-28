@@ -35,6 +35,7 @@
 		<link rel="stylesheet" href="{{asset('css/style.css')}}">
 		<link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
 		<link rel="stylesheet" href="{{asset('css/urgency.css')}}">
+		<link rel="stylesheet" href="{{asset('css/jquery-confirm.css')}}">
 
 		<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 	</head>
@@ -68,6 +69,7 @@
 		<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
 		<script src="{{asset('js/jquery.countTo.js')}}"></script>
 		<script src="{{asset('js/main.js')}}"></script>
+		<script src="{{asset('js/jquery-confirm.js')}}"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 		<script src="{{asset('js/google_map.js')}}"></script>
 	    @stack('scripts')
