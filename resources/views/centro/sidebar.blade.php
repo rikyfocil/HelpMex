@@ -40,7 +40,7 @@
                             <p>Dashboard</p>
                         </a>
                     </li>
-                    <li class="{{strpos(Request::url(), 'actividades') ? 'active' : 'inactive' }}">
+                    <li class="{{strpos(Request::url(), 'info') ? 'active' : 'inactive' }}">
                         <a href="{{route('info_centro')}}">
                             <i class="material-icons">person</i>
                             <p>Informaci&oacute;n de centro</p>
