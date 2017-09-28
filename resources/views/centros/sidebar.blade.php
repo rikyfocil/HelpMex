@@ -139,9 +139,10 @@
 <!--  Notifications Plugin    -->
 <script src="{{asset('js/bootstrap-notify.js')}}"></script>
 <!--  Google Maps Plugin    -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA"></script>
 <!-- Material Dashboard javascript methods -->
 <script src="{{asset('js/material-dashboard.js?v=1.2.0')}}"></script>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="{{asset('js/demo.js')}}"></script>
+<script src="{{asset('js/google_map.js')}}"></script>
 </html>
