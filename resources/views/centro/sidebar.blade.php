@@ -19,7 +19,11 @@
     <div class="wrapper">
         <div class="sidebar" data-color="purple" data-image="{{asset('images/sidebar-1.jpg')}}">
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+         
+>>>>>>> 7c858379c6dcb2d1000b0f46b00ae38ab2875a58
 =======
          
 >>>>>>> 7c858379c6dcb2d1000b0f46b00ae38ab2875a58
@@ -77,17 +81,10 @@
             </div>
         </div>
 
-<<<<<<< HEAD
         @yield('content')
 
     </div>
-=======
-        <div>
-            @yield('content')
-        </div>
-    </div>
-    
->>>>>>> 7c858379c6dcb2d1000b0f46b00ae38ab2875a58
+
 </body>
 
 <script src="{{asset('js/jquery-3.2.1.min.js')}}" type="text/javascript"></script>
