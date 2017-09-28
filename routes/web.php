@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Rutas para el donador
 Route::get('donador', function () {
     return view('donador.urgencias');
 })->name('index');
@@ -31,14 +32,26 @@ Route::get('donador/subcat', function () {
     return view('donador.subcat');
 });
 
-Route::get('centro/comunidad', function() {
+
+//Rutas para los centros
+Route::get('centro/comunidades', function() {
 	return view('centro.typography');
 });
 
-Route::get('notif', function() {
-	return view('centro.notifications');
-});
+Route::get('centro/comunidades/registro', function() {
+	return view('centro.registro_comunidades');
+})->name('registro_comunidades');
+
+Route::get('centro/usuarios/registro', function() {
+	return view('centro.registro_usuarios');
+})->name('registro_usuarios');
 
 Route::get('centro/dashboard', function() {
 	return view('centro.dashboard');
+});
+
+
+//Otros
+Route::get('notif', function() {
+	return view('centro.notifications');
 });

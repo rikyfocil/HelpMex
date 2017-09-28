@@ -79,29 +79,13 @@
                                             <h1>San Francisco Xochiteopan</h1>
                                         </div>
 
-                                        <!--
                                         <div class="row">
                                             <div class="col-xs-6" style="height:40%">
                                                 <div id="map"></div>
-                                                    <script>
-                                                      function initMap() {
-                                                        var xochi = {lat: 18.768, lng: -98.613};
-                                                        var map = new google.maps.Map(document.getElementById('map'), {
-                                                          zoom: 9,
-                                                          center: xochi
-                                                        });
-                                                        var marker = new google.maps.Marker({
-                                                          position: xochi,
-                                                          map: map
-                                                        });
-                                                      }
-                                                    </script>
-                                                    <script async defer
-                                                    src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAsqmKnAuericN8VQ1D_jW3CGvVNJ-bcG8&callback=initMap">
-                                                    </script>
-                                                </div>
-                                            </div>
-                                            -->
+                                                
+                                            </div>  
+                                        </div>
+                                        <!--
                                         <div class="row">
                                             <div class="col-xs-12">
                                                 <div class="col-xs-12">
@@ -116,6 +100,9 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        -->
+                                        <!-- Alerta -->
+
                                         <div class="row">
                                             <br>
                                             <div class="alert alert-warning">
@@ -133,22 +120,56 @@
                                             
 
                                         </div>
-                                        <div class="row">
-                                            <div class="card card-stats">
-                                                <div class="card-header" data-background-color="orange">
-                                                    <i class="material-icons">content_copy</i>
-                                                </div>
-                                                <div class="card-content">
-                                                    <p class="category">Used Space</p>
-                                                    <h3 class="title">49/50<small>GB</small></h3>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="stats">
-                                                        <i class="material-icons text-danger">warning</i> <a href="#pablo">Get More Space...</a>
+                                        <!-- <div class="row"> -->
+                                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                                <div class="card card-stats">
+                                                    <div class="card-header" data-background-color="orange">
+                                                        <i class="material-icons">invert_colors</i>
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <p class="category">Agua</p>
+                                                        <h3 class="title">23<small> litros</small></h3>
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="stats">
+                                                            <i class="material-icons text-danger">warning</i> <a href="#pablo">Urgente</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                                <div class="card card-stats">
+                                                    <div class="card-header" data-background-color="green">
+                                                        <i class="material-icons">restaurant</i>
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <p class="category">Enlatados</p>
+                                                        <h3 class="title">40<small>kg</small></h3>
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="stats">
+                                                            <i class="material-icons">access_time</i> Actualizado hace 20min
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                                <div class="card card-stats">
+                                                    <div class="card-header" data-background-color="blue">
+                                                        <i class="material-icons">home</i>
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <p class="category">Material para construcci&oacute;n</p>
+                                                        <h3 class="title">100<small> palas</small></h3>
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="stats">
+                                                            <i class="material-icons">date_range</i> Necesitado para el 3 de octubre
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <!-- </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +177,6 @@
                     </div>
                 </div>
             </div>
-            
 
 @endsection
 
