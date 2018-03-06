@@ -45,7 +45,7 @@ Route::get('centro/comunidades/registro', function() {
 Route::get('centro/usuarios/registro', function() {
 	return view('centro.registro_usuarios');
 })->name('registro_usuarios');
-
+//Hola guap@, este es un comentario escondido <3
 Route::get('centro/dashboard', function() {
 	return view('centro.dashboard');
 })->name('dashboard');
