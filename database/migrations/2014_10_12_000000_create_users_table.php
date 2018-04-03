@@ -9,6 +9,7 @@ class CreateUsersTable extends Migration
     /**
      * Run the migrations.
      *
+     * Este es un cambio para ejemplificar los rebase en git
      * @return void
      */
     public function up()
